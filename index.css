@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.app{
+    background-color: burlywood;
+    width: 45%;
+    min-height: 250px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+input.app-add-input {
+    height: 40px;
+    width: 60%;
+    margin-right: 7px;
+}
+input.app-add-input:focus{
+    border:gray
+}
+::placeholder{
+    padding: 10px;
+}
+.app-add {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.app-add-button {
+    width: 12%;
+    margin-left: 5px;
+}
+#plusicon:hover{
+    color: gray;
+}
+.app-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.app-content-detail{
+    min-height: 28px;
+    width:76%;
+    align-items: center;
+    display: flex;
+    border: solid 2px white;
+    background-color: rgba(220, 210, 210/40%);
+    justify-content:space-between;
+    margin: 10px 0px
+}
+p.detail-text{
+    padding-left: 10px;
+}
+#trashicon{
+    padding-right: 10px;
+}
+.app-footer{
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+}
+button.btn-clear-all{
+    height: 28px;
+    width: 30%;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    font-weight: 550px;
+    border: none;
+}
